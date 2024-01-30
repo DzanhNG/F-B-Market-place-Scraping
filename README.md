@@ -22,4 +22,4 @@ if __name__ == "__main__":
 
 
 # Export data to excel:
-<img src="./Images\output_data.PNG" width="15000" height="500">
+<img src="./Images\output_data.PNG" width="500" height="300">
