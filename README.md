@@ -21,5 +21,7 @@ if __name__ == "__main__":
 # Video Demo:
 - Link: https://github.com/DzanhNG/F-B-Market-place-Scraping/blob/main/Images/demo_video.mp4
 
+![](https://github.com/DzanhNG/F-B-Market-place-Scraping/blob/main/Images/Gift%20demo.gif)
+
 # Export data to excel:
 <img src="./Images\output_data.PNG" width="400" height="150">
