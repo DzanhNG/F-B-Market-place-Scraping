@@ -29,7 +29,7 @@ class WebScraper:
 
     def navigate_to_url(self, url):
         self.driver.get(url)
-        sleep(15)  # Adjust sleep as needed
+        sleep(10)  # Adjust sleep as needed
 
     def Start(self,Item_max):
 
@@ -39,7 +39,7 @@ class WebScraper:
 
             Stop_number = Item_max
             count_enter = 0
-            while count_enter <= Stop_number:
+            while count_enter < Stop_number:
                 self.actions.send_keys(Keys.ENTER).perform()
                 print('enter')
 
@@ -80,7 +80,7 @@ class WebScraper:
                 #Tab new:
                 self.actions.send_keys(Keys.TAB).perform()
           
-                sleep(10)
+                sleep(5)
                 count_enter +=1
             
         except Exception as e:
