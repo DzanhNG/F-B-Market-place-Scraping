@@ -19,7 +19,7 @@ if __name__ == "__main__":
         scraper.close_browser()
 ```
 # Video Demo:
-
+- Link: https://github.com/DzanhNG/F-B-Market-place-Scraping/blob/main/Images/demo_video.mp4
 
 # Export data to excel:
 <img src="./Images\output_data.PNG" width="400" height="150">
