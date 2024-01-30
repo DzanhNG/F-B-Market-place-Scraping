@@ -96,13 +96,14 @@ class WebScraper:
 
 # Example usage:
 if __name__ == "__main__":
+    ##Filter the option in Marketplace and copy the url
     url = "https://www.facebook.com/marketplace/denver/search/?query=Antiques%20%26%20Collectibles"
     scraper = WebScraper()
 
     try:
         scraper.navigate_to_url(url)
 
-        Item_max = 5
+        Item_max = 5 ###The max items that you want to scrape
         scraper.Start(Item_max)
 
         # Export the data to Excel after the loop
