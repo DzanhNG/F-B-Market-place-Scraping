@@ -1,5 +1,5 @@
 # F-B-Market-place-Scraping
-This project focuses on scraping data from Facebook Marketplace in Denver, CO, and a +75 mile radius, specifically targeting "local pick-up" items. Our goal is to analyze categories such as Antiques, Electronics, Vehicles, etc., extracting key details like item name, listing price, seller rating, and reviews. Optionally, item links may be included. The extracted data will be conveniently exported to a CSV file, providing a concise and structured dataset for quick insights into local market trends and pricing dynamics.
+This project focuses on scraping data from Facebook Marketplace in [Location and Miles] specifically targeting "local pick-up" items. Our goal is to analyze categories such as Antiques, Electronics, Vehicles, etc., extracting key details like item name, listing price, seller rating, and reviews. Optionally, item links may be included. The extracted data will be conveniently exported to a CSV file, providing a concise and structured dataset for quick insights into local market trends and pricing dynamics.
 
 
 # How to use: Main.py
@@ -19,7 +19,9 @@ if __name__ == "__main__":
         scraper.close_browser()
 ```
 # Video Demo:
+- Link: https://github.com/DzanhNG/F-B-Market-place-Scraping/blob/main/Images/demo_video.mp4
 
+![](https://github.com/DzanhNG/F-B-Market-place-Scraping/blob/main/Images/Gift%20demo.gif)
 
 # Export data to excel:
 <img src="./Images\output_data.PNG" width="400" height="150">
